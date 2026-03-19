@@ -5,3 +5,6 @@
 2. Czym w praktyce różni się merge od rebase?
     Merge łączy gałęzie tworząc nowy commit scalający (zachowuje historię równoległą). 
     Rebase przepisuje historię, przenosząc nasze commity na sam koniec gałęzi docelowej, dzięki czemu historia jest liniowa.
+3. W jaki sposób został rozwiązany konflikt w Twoim repozytorium?
+    Konflikt wystąpił w pliku Program.cs. 
+    Rozwiązałem go korzystając z narzędzia wbudowanego w środowisko Rider (Merge Dialog), gdzie wybralem docelowa wersje kodu.

@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Witaj w programie statystycznym!");
+﻿Console.WriteLine("Witaj w doskonale niezwyklym programie statystycznym!");
 Console.WriteLine("Podaj liczby po przecinku:");
 string input = Console.ReadLine();
 
