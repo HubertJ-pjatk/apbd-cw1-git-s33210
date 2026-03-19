@@ -18,4 +18,16 @@ public class Helper
         }
         return sum / values.Length;
     }
+    
+    public static int CalculateMax(int[] values)
+    {
+        if (values == null || values.Length == 0) return 0;
+    
+        int max = values[0];
+        foreach (int val in values) 
+        {
+            if (val > max) max = val;
+        }
+        return max;
+    }
 }
