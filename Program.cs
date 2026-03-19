@@ -7,3 +7,5 @@ if (string.IsNullOrWhiteSpace(input))
     Console.WriteLine("Błąd: Nie podano żadnych danych!");
     return;
 }
+
+Helper.WypiszLiczby(input);
