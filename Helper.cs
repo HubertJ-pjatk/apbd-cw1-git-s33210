@@ -30,4 +30,10 @@ public class Helper
         }
         return max;
     }
+    
+    public static int CalculateMin(int[] values)
+    {
+        // Tu bedzie logika
+        return 0;
+    }
 }
