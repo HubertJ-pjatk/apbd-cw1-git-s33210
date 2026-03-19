@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Witaj w programie statystycznym!");
+Console.WriteLine("Podaj liczby po przecinku:");
+string input = Console.ReadLine();
