@@ -33,7 +33,13 @@ public class Helper
     
     public static int CalculateMin(int[] values)
     {
-        // Tu bedzie logika
-        return 0;
+        if (values == null || values.Length == 0) return 0;
+    
+        int min = values[0];
+        foreach (int val in values) 
+        {
+            if (val < min) min = val;
+        }
+        return min;
     }
 }
